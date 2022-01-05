@@ -1,10 +1,10 @@
 import React from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import AboutCockTail from "./AboutCockTail";
+import AboutCockTail from "./components/AboutCockTail";
 
-import Nav from "./Nav";
-import Home from "./Home";
-import About from "./About";
+import Nav from "./components/Nav";
+import Home from "./components/Home";
+import About from "./components/About";
 
 const App = () => {
   return (
