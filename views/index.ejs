@@ -1,0 +1,106 @@
+<!-- Importing header html from partials -->
+<%- include("./partials/head.ejs") %>
+
+
+<!-- driver code -->
+<html lang="en">
+<body>
+  <main>
+    <section class="glass">
+      <div class="dashboard">
+        <div class="user">
+          <img src="./images/userimg.png" alt="" />
+          <h2 style="font-size:2.2rem ;"><%=username %></h2>
+          <p>User</p>
+        </div>
+
+        <h1>Your score</h1>
+        <h1 class="score"><%=user_score %></h1>
+        <div class="access">
+          <h2>View Source code</h2>
+          <a href="https://github.com/"><img src="./images/git1.png" alt="" /></a>
+        </div>
+      </div>
+
+      <% if (cur_mood=="Happy") { %>
+      <div class="recommends">
+        <div class="status">
+          <h1>Try these to make your mood more happier !</h1>
+          <input type="text" /> 
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="./images/mouse.png" alt="" />
+            <div class="card-info">
+              <h2>Logitech g402 mouse big deals</h2>
+              <a href="https://www.amazon.in/Logitech-Hyperion-Ultra-Gaming-Mouse/dp/B00NFD0ETQ/ref=sr_1_2?crid=3KK0343RC0CVZ&keywords=logitech+g402&qid=1653748471&sprefix=logitech+g402+%2Caps%2C249&sr=8-2">BUY</a>
+              <div  class="progress"></div>
+            </div>
+            <h2 class="percentage">70%</h2>
+          </div>
+          <div class="card">
+            <img src="./images/dune.png" alt="" />
+            <div class="card-info">
+              <h2>Experience the real sci fi - dune</h2>
+              <a href="https://www.primevideo.com/detail/0IYI4MP68J8X3KAW96CLQQXCTB/ref=atv_dp_amz_det_c_Iw3Dma_1_4">WATCH</a>
+              <div class="progress1"></div>
+            </div>
+            <h2 class="percentage">90%</h2>
+          </div>
+          <div class="card">
+            <img src="./images/mall.png" alt="" />
+            <div class="card-info">
+              <h2>Grab the super weekend deals....</h2>
+              <a href="https://g.page/LuLuMall?share">LULU Mall Directions</a>
+              <div class="progress2"></div>
+            </div>
+            <h2 class="percentage">60%</h2>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- If user is sad ( approx ) -->
+      <% } else { %>
+        <div class="recommends">
+          <div class="status">
+            <h1>Refresh your mood with these recommendations !</h1>
+            <input type="text" /> 
+          </div>
+          <div class="cards">
+            <div class="card">
+              <img src="./images/gym.png" alt="" />
+              <div class="card-info">
+                <h2>Its time to tune your muscles!</h2>
+                <a href="https://www.amazon.in/Kore-PVC-Home-Gym-Accessories/dp/B089DF1PXS/ref=sr_1_5?keywords=gym+accessories+for+men&qid=1653749891&sprefix=gym+acc%2Caps%2C266&sr=8-5">BUY at Amazon</a>
+                <div class="progress"></div>
+              </div>
+              <h2 class="percentage">70%</h2>
+            </div>
+            <div class="card">
+              <img src="./images/soorarai.png" alt="" />  
+              <div class="card-info">
+                <h2>Get super motivated - IMDB 8.7</h2>
+                <a href="https://www.primevideo.com/detail/0RIGXSH2D86B5V2RNHQOZVRGAD/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B08L653W16&qid=1653746725">WATCH at prime</a>
+                <div class="progress1"></div>
+              </div>
+              <h2 class="percentage">90%</h2>
+            </div>
+            <div class="card">
+              <img src="./images/waterfalls.png" alt="" />
+              <div class="card-info">
+                <h2>Our Nature is the best healer. ! </h2>
+                <a href="https://goo.gl/maps/JmFAL8xPAEkuaN3Z9">GET location</a>
+                <div class="progress2"></div>
+              </div>
+              <h2 class="percentage">60%</h2>
+            </div>
+          </div>
+        </div>
+        <% } %>
+    </section>
+  </main>
+  <div class="circle1"></div>
+  <div class="circle2"></div>
+</body>
+</html>
