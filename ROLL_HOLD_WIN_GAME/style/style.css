@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 70%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nova Flat", cursive;
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* LAYOUT */
+
+main {
+  position: relative;
+  width: 100rem;
+  height: 75rem;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(250px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.33);
+  border-radius: 13px;
+  overflow: hidden;
+  display: flex;
+}
+
+.player {
+  flex: 50%;
+  padding: 10rem;
+  padding-bottom: 18rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.6s;
+}
+
+/* ITEMS ON SCREEN */
+
+.name {
+  position: relative;
+  font-size: 4.5rem;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.score {
+  font-size: 7.5rem;
+  font-weight: 300;
+  color: #28b487;
+  margin-bottom: auto;
+}
+
+.player_active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.player_active .name {
+  font-weight: 700;
+}
+
+.player_active .score {
+  font-weight: 600;
+}
+
+.player_active .current {
+  opacity: 1;
+}
+
+.current {
+  background-color: #28b487;
+  opacity: 0.8;
+  border-radius: 13px;
+  color: #fff;
+  width: 65%;
+  padding: 2rem;
+  transition: all 0.65s;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.current_label {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #ddd;
+}
+
+.current_score {
+  font-size: 3.5rem;
+}
+
+/* BUTTON STYLING */
+
+.btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #444;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.25s;
+
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+
+  padding: 0.7rem 2.5rem;
+  border-radius: 50rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+.btn_new {
+  top: 4rem;
+}
+
+.btn_dice {
+  top: 44.75rem;
+}
+
+.btn_hold {
+  top: 51rem;
+}
+
+.btn:active {
+  transform: translate(-50%, 3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.dice {
+  position: absolute;
+  left: 50%;
+  top: 22.5rem;
+  transform: translateX(-50%);
+  height: 10rem;
+}
+
+.none{
+  display: none;
+}
+
+.player_winner .name {
+  font-weight: 700;
+  top:200px;
+  font-size: 10rem;
+}
+
+.player_winner .score {
+  display: none;
+}
+
+.player_winner .current{
+  display: none;
+}
+
+.shake{
+  animation: shake 0.5s infinite;
+  left:502.5px;
+}
+@keyframes shake{
+  0%{
+      transform: rotate(25deg);
+  }
+  50%{
+      transform: rotate(-8deg);
+  }
+  100%{
+      transform: rotate(8deg);
+  }
+}
+
+

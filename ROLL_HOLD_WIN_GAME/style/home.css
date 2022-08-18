@@ -1,0 +1,74 @@
+/* HOME PAGE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 70%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Nova Flat", cursive;
+    font-weight: 400;
+    height: 100vh;
+    color: #333;
+    background: linear-gradient(to top left, #28b487, #7dd56f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+main {
+    position: relative;
+    width: 100rem;
+    height: 75rem;
+    background-color: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(250px);
+    filter: blur();
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.33);
+    border-radius: 13px;
+    overflow: hidden;
+    display: flex;
+  }
+
+.btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #444;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.25s;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+  
+    padding: 0.7rem 2.5rem;
+    border-radius: 50rem;
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .ins{
+    top:500px;
+    padding: 10 10px;
+  }
+
+  .btn_pp{
+    top:300px;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+  
+  .btn_pc{
+    top:400px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }

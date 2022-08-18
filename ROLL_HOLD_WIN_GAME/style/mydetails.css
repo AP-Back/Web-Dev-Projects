@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+.wrapper {
+  display: inline-flex;
+  position: absolute;
+  bottom: 75px;
+  left: 32.33%;
+}
+
+.author {
+    position: absolute;
+    bottom: 15px;
+    left: 41%;
+    font-weight: 500;
+  }
+
+.wrapper .icon {
+  margin: 0 20px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon span {
+  display: block;
+  height: 60px;
+  width: 60px;
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon span i {
+  line-height: 60px;
+  font-size: 25px;
+}
+
+/* a.icon span i{
+  color: black;
+}
+
+a.icon:hover span i{
+  color: rgb(24,108,81);
+} */
+
+a.icon:hover span i{
+    color:white;
+}
+
+.wrapper .icon :hover{
+    background: #28b487;
+}
+
+.wrapper .icon span :hover{
+    background: none;
+}
+
+a.icon span i{
+    color: rgb(24,108,81);
+}
