@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Payment Window</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <main>
+        <form name="form1" action="#" method="get" >
+            <label >Name: </label>
+            <input type="text"name="name" required>
+            <br><br>
+            <label >Phone Number: </label>
+            <input type="text" name="phno" id="no" pattern="^[0-9]{10}$"required>
+            <br><br>
+            <label >Mail: </label>
+            <input type="email" name="email" required>
+            <br><br>
+            <label >Choose Services: </label>
+            <br>
+            <input type="radio" name="sex" value="v1">&nbsp&nbspMobile Services
+            <br>
+            <input type="radio" name="sex" value="v2">&nbsp&nbspFiber Services
+            <br>
+            <input type="radio" name="sex" value="v3">&nbsp&nbspInternet TV Services
+            <br><br>
+            <label >Choose Plan: </label>
+            <br>
+            <input type="radio" name="l1" id="en">&nbsp&nbspSilver
+            <br>
+            <input type="radio" name="l2" id="ta">&nbsp&nbspGold
+            <br>
+            <input type="radio" name="l3" id="hi">&nbsp&nbspDiamond
+            
+            <input type="submit" value="Pay Now" class="btn" id="b1" onclick="return hehe()">
+            <input type="reset" class="btn" id="b2">
+        </form>
+    </main>
+    <script>
+        function hehe()
+        {
+            alert("Payment is Re-directed to Payment Gateway")
+        }
+    </script>
+</body>
+</html>
