@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <div class="mainPanel col-md-6 col-sm-10">
+        <div class="startPanel" id="starterPanel">
+          <h1>Quiz App</h1>
+          <br />
+          <label for="level">Choose the Level</label>
+          <select id="level">
+            <option>easy</option>
+            <option>medium</option>
+            <option>hard</option>
+          </select>
+          <br />
+          <br />
+          <h2>Are You Ready?</h2>
+          <br />
+          <button class="btn btn-primary" id="starterBtn">Start</button>
+        </div>
+        <div class="quizPanelHide" id="quizPanel">
+          <div class="status">
+            <div><b id="answered">#</b> of <span id="total">10</span></div>
+            <div id="time"></div>
+            <div>
+              <div style="display: inline">
+                <i
+                  class="fa fa-times-circle"
+                  style="color: red; font-size: 18px"
+                ></i>
+                <span id="wrong">0</span>
+              </div>
+              <div style="display: inline">
+                <i
+                  class="fa fa-check-circle"
+                  style="color: green; font-size: 18px"
+                ></i>
+                <span id="correct">0</span>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div>
+            <h6 id="question"></h6>
+            <ul id="answers">
+              <li id="firstAnswer" class="listItem"></li>
+              <li id="secondAnswer" class="listItem"></li>
+              <li id="thirdAnswer" class="listItem"></li>
+              <li id="fourthAnswer" class="listItem"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="hideResult" id="finishedPanel">
+          <h2 id="score"></h2>
+          <button class="btn btn-primary" id="play-again">Play again</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</html>
