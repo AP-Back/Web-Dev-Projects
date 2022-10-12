@@ -37,12 +37,11 @@ It's very easy. You don't need to be an expert in coding and programming. Here a
 2. **Create a file in any programming language which help us to contribute towards open source.**
 3. **Try to contribute in open source with good code and don't spam.**
 4. **Now click on Propose button.**
-5. **Create a new pull request.**
+5. **Create a new pull request according to the PULL REQUEST TEMPLATE(PR.md).**
 6. **Wait for your Pull Request to be reviewed and merged!**
 7. **Enjoy and welcome to Hacktoberfest 2022 and Keep Contributing :)**
 
 > You Can Upload Coded Projects In the Codes Directory
-
 
 ---
 
