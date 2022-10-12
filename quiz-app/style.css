@@ -1,0 +1,93 @@
+.app {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    #e6ffff,
+    #ccffff,
+    #ccffff,
+    #99ddff,
+    #e6f3ff,
+    #cce6ff
+  );
+}
+.mainPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(#66d9ff, #80dfff, #99e6ff);
+  margin: 0 auto;
+  border: solid #000066 2px;
+  border-radius: 5px;
+}
+.starterPanelHide {
+  display: none;
+}
+.startPanel {
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.startPanel #starterBtn {
+  width: 80%;
+  margin-top: 5%;
+}
+#level,
+#category {
+  background: #090435;
+  color: white;
+}
+.quizPanel {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.quizPanelHide {
+  display: none;
+}
+.status {
+  display: flex;
+  justify-content: space-between;
+}
+#answers {
+  list-style-type: none;
+  padding: 0;
+}
+#answers li {
+  width: 100%;
+  background: #00a3cc;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 3px;
+  transition: all ease-in-out 0.3s;
+}
+#answers .listItem:hover {
+  background: #139b9b;
+  cursor: pointer;
+}
+#answers .correct {
+  background: #4bea65;
+}
+
+#answers .wrong {
+  background: #ec5f5f;
+}
+.showResult {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#score {
+  text-align: center;
+}
+.hideResult {
+  display: none;
+}
