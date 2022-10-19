@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&family=Roboto+Condensed:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 70%;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Nova Flat', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    height: 100vh;
+    color: #333;
+    background: url("back.jpg");
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main{
+
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.35);
+        backdrop-filter: blur(250px);
+        filter: blur();
+        box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.33);
+        border-radius: 13px;
+        width: 60vw;
+        height: 75vh;
+        padding:50px;
+        margin-left: 50px;
+}
+
+input{
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(250px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.33);
+  border-radius: 13px;
+  padding: 7px;
+}
+
+h1{
+        font-size: 5rem;
+        text-align: center;
+        margin: 100px;
+}
+
+.btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    COLOR:#444;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.25s;
+
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.6);
+    backdrop-filter: blur(10px);
+
+    padding: 0.7rem 2.5rem;
+    border-radius: 50rem;
+    box-shadow:  0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+#b1{
+    left:400px;
+}
+
+#b2{
+    left:600px;
+}
