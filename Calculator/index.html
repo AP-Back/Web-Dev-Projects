@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <div class="body">
+        <main>
+            <div class="result">
+                <form >
+                    <input type="text" id="screen" disabled>
+                </form>
+            </div>
+            <div class="row1">
+                <button class="cc" onclick="clearScreen()">AC</button>
+                <button class="clear" onclick="clearLast()">D</button>
+                <button class="mod" onclick="screen('%')">%</button>
+                <button class="divide" onclick="screen('/')">&divide</button>
+            </div>
+            <div class="row2">
+                <button class="number" onclick="screen(7)">7</button>
+                <button class="number" onclick="screen(8)">8</button>
+                <button class="number" onclick="screen(9)">9</button>
+                <button class="mult" onclick="screen('*')">&times</button>
+            </div>
+            <div class="row3">
+                <button class="number" onclick="screen(4)">4</button>
+                <button class="number" onclick="screen(5)">5</button>
+                <button class="number" onclick="screen(6)">6</button>
+                <button class="sub" onclick="screen('-')">-</button>
+            </div>
+            <div class="row4">
+                <button class="number" onclick="screen(1)">1</button>
+                <button class="number"onclick="screen(2)">2</button>
+                <button class="number" onclick="screen(3)">3</button>
+                <button class="add" onclick="screen('+')">+</button>
+            </div>
+            <div class="row5">
+                <button class="number" onclick="screen(0)">0</button>
+                <button class="decimal" onclick="screen('.')">.</button>
+                <button class="equal" onclick="calculate()">=</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

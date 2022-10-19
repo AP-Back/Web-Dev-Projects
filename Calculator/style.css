@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap");
+
+body{
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 70%;
+  box-sizing: border-box;
+}
+
+button{
+    padding:10px;
+    margin:10px;
+    height: 5rem;
+    width:5rem;
+    border: none;
+    border-radius: 125px;
+    font-size: 2rem;
+}
+
+main{
+    height: 65vh;
+    max-width: 55vw;
+    min-width:25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(250px);
+    filter: blur();
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.33);
+    border-radius: 13px;
+    overflow: hidden;
+    display: flex;
+}
+
+.equal{
+    width:12rem;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 15px 85px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border:none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+  }
