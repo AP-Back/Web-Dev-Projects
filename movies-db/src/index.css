@@ -1,0 +1,9 @@
+.vert-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
