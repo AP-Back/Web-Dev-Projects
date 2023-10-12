@@ -1,0 +1,602 @@
+[
+    {
+      "car_name": "Toyota Corolla",
+      "year_of_buying": 2020,
+      "num_rented_before": 12,
+      "fuel_type": "Gasoline",
+      "mileage": "15km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$300",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&1"
+    },
+    {
+      "car_name": "Honda Civic",
+      "year_of_buying": 2019,
+      "num_rented_before": 10,
+      "fuel_type": "Gasoline",
+      "mileage": "14km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$280",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&2"
+    },
+    {
+      "car_name": "Ford Focus",
+      "year_of_buying": 2021,
+      "num_rented_before": 8,
+      "fuel_type": "Gasoline",
+      "mileage": "16km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$320",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&3"
+    },
+    {
+      "car_name": "Nissan Altima",
+      "year_of_buying": 2020,
+      "num_rented_before": 11,
+      "fuel_type": "Gasoline",
+      "mileage": "15.5km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$310",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&4"
+    },
+    {
+      "car_name": "Volkswagen Golf",
+      "year_of_buying": 2022,
+      "num_rented_before": 6,
+      "fuel_type": "Gasoline",
+      "mileage": "17km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$340",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&5"
+    },
+    {
+      "car_name": "Chevrolet Malibu",
+      "year_of_buying": 2019,
+      "num_rented_before": 9,
+      "fuel_type": "Gasoline",
+      "mileage": "14.5km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$290",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&6"
+    },
+    {
+      "car_name": "Hyundai Elantra",
+      "year_of_buying": 2021,
+      "num_rented_before": 7,
+      "fuel_type": "Gasoline",
+      "mileage": "16.5km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$330",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&7"
+    },
+    {
+      "car_name": "Kia Optima",
+      "year_of_buying": 2020,
+      "num_rented_before": 10,
+      "fuel_type": "Gasoline",
+      "mileage": "15.8km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$315",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&8"
+    },
+    {
+      "car_name": "Tesla Model 3",
+      "year_of_buying": 2020,
+      "num_rented_before": 5,
+      "fuel_type": "Electric",
+      "mileage": "4.5km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$400",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&9"
+    },
+    {
+      "car_name": "BMW 3 Series",
+      "year_of_buying": 2021,
+      "num_rented_before": 8,
+      "fuel_type": "Gasoline",
+      "mileage": "14.2km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$350",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&10"
+    },
+    {
+      "car_name": "Audi A4",
+      "year_of_buying": 2019,
+      "num_rented_before": 7,
+      "fuel_type": "Gasoline",
+      "mileage": "14.8km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$325",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&11"
+    },
+    {
+      "car_name": "Mercedes-Benz C-Class",
+      "year_of_buying": 2022,
+      "num_rented_before": 6,
+      "fuel_type": "Gasoline",
+      "mileage": "16.7km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$375",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&12"
+    },
+    {
+      "car_name": "Lexus ES",
+      "year_of_buying": 2020,
+      "num_rented_before": 9,
+      "fuel_type": "Gasoline",
+      "mileage": "15.2km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$335",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&13"
+    },
+    {
+      "car_name": "Toyota Camry",
+      "year_of_buying": 2021,
+      "num_rented_before": 8,
+      "fuel_type": "Gasoline",
+      "mileage": "16.1km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$345",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&14"
+    },
+    {
+      "car_name": "Honda Accord",
+      "year_of_buying": 2019,
+      "num_rented_before": 10,
+      "fuel_type": "Gasoline",
+      "mileage": "15.0km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$320",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&15"
+    },
+    {
+      "car_name": "Ford Fusion",
+      "year_of_buying": 2020,
+      "num_rented_before": 7,
+      "fuel_type": "Gasoline",
+      "mileage": "15.7km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$310",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&16"
+    },
+    {
+      "car_name": "Nissan Maxima",
+      "year_of_buying": 2022,
+      "num_rented_before": 5,
+      "fuel_type": "Gasoline",
+      "mileage": "17.3km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$330",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&17"
+    },
+    {
+      "car_name": "Volkswagen Passat",
+      "year_of_buying": 2019,
+      "num_rented_before": 9,
+      "fuel_type": "Gasoline",
+      "mileage": "14.9km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$315",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&18"
+    },
+    {
+      "car_name": "Chevrolet Impala",
+      "year_of_buying": 2021,
+      "num_rented_before": 6,
+      "fuel_type": "Gasoline",
+      "mileage": "16.4km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$335",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&19"
+    },
+    {
+      "car_name": "Hyundai Sonata",
+      "year_of_buying": 2020,
+      "num_rented_before": 8,
+      "fuel_type": "Gasoline",
+      "mileage": "15.5km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$320",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&20"
+    },
+    {
+      "car_name": "Kia Optima",
+      "year_of_buying": 2020,
+      "num_rented_before": 10,
+      "fuel_type": "Gasoline",
+      "mileage": "15.8km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$315",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&21"
+    },
+    {
+      "car_name": "Tesla Model 3",
+      "year_of_buying": 2020,
+      "num_rented_before": 5,
+      "fuel_type": "Electric",
+      "mileage": "4.5km/1-litre (electric equivalent)",
+      "car_type": "Automatic",
+      "rent": "$400",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&22"
+    },
+    {
+      "car_name": "BMW 3 Series",
+      "year_of_buying": 2021,
+      "num_rented_before": 8,
+      "fuel_type": "Gasoline",
+      "mileage": "14.2km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$350",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&23"
+    },
+    {
+      "car_name": "Audi A4",
+      "year_of_buying": 2019,
+      "num_rented_before": 7,
+      "fuel_type": "Gasoline",
+      "mileage": "14.8km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$325",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&24"
+    },
+    {
+      "car_name": "Mercedes-Benz C-Class",
+      "year_of_buying": 2022,
+      "num_rented_before": 6,
+      "fuel_type": "Gasoline",
+      "mileage": "16.7km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$375",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&25"
+    },
+    {
+      "car_name": "Lexus ES",
+      "year_of_buying": 2020,
+      "num_rented_before": 9,
+      "fuel_type": "Gasoline",
+      "mileage": "15.2km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$335",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&26"
+    },
+    {
+      "car_name": "Toyota Camry",
+      "year_of_buying": 2021,
+      "num_rented_before": 8,
+      "fuel_type": "Gasoline",
+      "mileage": "16.1km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$345",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&27"
+    },
+    {
+      "car_name": "Honda Accord",
+      "year_of_buying": 2019,
+      "num_rented_before": 10,
+      "fuel_type": "Gasoline",
+      "mileage": "15.0km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$320",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&28"
+    },
+    {
+      "car_name": "Ford Fusion",
+      "year_of_buying": 2020,
+      "num_rented_before": 7,
+      "fuel_type": "Gasoline",
+      "mileage": "15.7km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$310",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&29"
+    },
+    {
+      "car_name": "Nissan Maxima",
+      "year_of_buying": 2022,
+      "num_rented_before": 5,
+      "fuel_type": "Gasoline",
+      "mileage": "17.3km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$330",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&30"
+    },
+    {
+      "car_name": "Volkswagen Passat",
+      "year_of_buying": 2019,
+      "num_rented_before": 9,
+      "fuel_type": "Gasoline",
+      "mileage": "14.9km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$315",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&31"
+    },
+    {
+      "car_name": "Chevrolet Impala",
+      "year_of_buying": 2021,
+      "num_rented_before": 6,
+      "fuel_type": "Gasoline",
+      "mileage": "16.4km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$335",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&32"
+    },
+    {
+      "car_name": "Hyundai Sonata",
+      "year_of_buying": 2020,
+      "num_rented_before": 8,
+      "fuel_type": "Gasoline",
+      "mileage": "15.5km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$320",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&33"
+    },
+    {
+      "car_name": "Kia Optima",
+      "year_of_buying": 2020,
+      "num_rented_before": 10,
+      "fuel_type": "Gasoline",
+      "mileage": "15.8km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$315",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&34"
+    },
+    {
+      "car_name": "Tesla Model 3",
+      "year_of_buying": 2020,
+      "num_rented_before": 5,
+      "fuel_type": "Electric",
+      "mileage": "4.5km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$400",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&35"
+    },
+    {
+      "car_name": "BMW 3 Series",
+      "year_of_buying": 2021,
+      "num_rented_before": 8,
+      "fuel_type": "Gasoline",
+      "mileage": "14.2km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$350",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&36"
+    },
+    {
+      "car_name": "Audi A4",
+      "year_of_buying": 2019,
+      "num_rented_before": 7,
+      "fuel_type": "Gasoline",
+      "mileage": "14.8km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$325",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&37"
+    },
+    {
+      "car_name": "Mercedes-Benz C-Class",
+      "year_of_buying": 2022,
+      "num_rented_before": 6,
+      "fuel_type": "Gasoline",
+      "mileage": "16.7km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$375",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&38"
+    },
+    {
+      "car_name": "Lexus ES",
+      "year_of_buying": 2020,
+      "num_rented_before": 9,
+      "fuel_type": "Gasoline",
+      "mileage": "15.2km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$335",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&39"
+    },
+    {
+      "car_name": "Toyota Camry",
+      "year_of_buying": 2021,
+      "num_rented_before": 8,
+      "fuel_type": "Gasoline",
+      "mileage": "16.1km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$345",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&40"
+    },
+    {
+      "car_name": "Honda Accord",
+      "year_of_buying": 2019,
+      "num_rented_before": 10,
+      "fuel_type": "Gasoline",
+      "mileage": "15.0km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$320",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&41"
+    },
+    {
+      "car_name": "Ford Fusion",
+      "year_of_buying": 2020,
+      "num_rented_before": 7,
+      "fuel_type": "Gasoline",
+      "mileage": "15.7km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$310",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&42"
+    },
+    {
+      "car_name": "Nissan Maxima",
+      "year_of_buying": 2022,
+      "num_rented_before": 5,
+      "fuel_type": "Gasoline",
+      "mileage": "17.3km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$330",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&43"
+    },
+    {
+      "car_name": "Volkswagen Passat",
+      "year_of_buying": 2019,
+      "num_rented_before": 9,
+      "fuel_type": "Gasoline",
+      "mileage": "14.9km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$315",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&44"
+    },
+    {
+      "car_name": "Chevrolet Impala",
+      "year_of_buying": 2021,
+      "num_rented_before": 6,
+      "fuel_type": "Gasoline",
+      "mileage": "16.4km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$335",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&45"
+    },
+    {
+      "car_name": "Hyundai Sonata",
+      "year_of_buying": 2020,
+      "num_rented_before": 8,
+      "fuel_type": "Gasoline",
+      "mileage": "15.5km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$320",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&46"
+    },
+    {
+      "car_name": "Kia Optima",
+      "year_of_buying": 2020,
+      "num_rented_before": 10,
+      "fuel_type": "Gasoline",
+      "mileage": "15.8km/1-litre",
+      "car_type": "Automatic",
+      "rent": "$315",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&47"
+    },
+    {
+        "car_name": "Tesla Model S",
+        "year_of_buying": 2021,
+        "num_rented_before": 4,
+        "fuel_type": "Electric",
+        "mileage": "4.0km/1-litre",
+        "car_type": "Automatic",
+        "rent": "$450",
+      "image": "https://source.unsplash.com/random/900%C3%97700/?car&48"
+      },
+      {
+        "car_name": "Chevrolet Camaro",
+        "year_of_buying": 2020,
+        "num_rented_before": 6,
+        "fuel_type": "Gasoline",
+        "mileage": "12km/1-litre",
+        "car_type": "Automatic",
+        "rent": "$400",
+        "image": "https://source.unsplash.com/random/900%C3%97700/?car&49"
+      },
+      {
+        "car_name": "Ford Mustang",
+        "year_of_buying": 2022,
+        "num_rented_before": 3,
+        "fuel_type": "Gasoline",
+        "mileage": "11.5km/1-litre",
+        "car_type": "Automatic",
+        "rent": "$420",
+        "image": "https://source.unsplash.com/random/900%C3%97700/?car&50"
+      },
+      {
+        "car_name": "Dodge Charger",
+        "year_of_buying": 2021,
+        "num_rented_before": 5,
+        "fuel_type": "Gasoline",
+        "mileage": "12.2km/1-litre",
+        "car_type": "Automatic",
+        "rent": "$410",
+        "image": "https://source.unsplash.com/random/900%C3%97700/?car&51"
+      },
+      {
+        "car_name": "Nissan Leaf",
+        "year_of_buying": 2020,
+        "num_rented_before": 4,
+        "fuel_type": "Electric",
+        "mileage": "5.0km/1-litre",
+        "car_type": "Automatic",
+        "rent": "$380",
+        "image": "https://source.unsplash.com/random/900%C3%97700/?car&52"
+      },
+      {
+        "car_name": "Honda Fit",
+        "year_of_buying": 2019,
+        "num_rented_before": 8,
+        "fuel_type": "Gasoline",
+        "mileage": "18km/1-litre",
+        "car_type": "Automatic",
+        "rent": "$280",
+        "image": "https://source.unsplash.com/random/900%C3%97700/?car&53"
+      },
+      {
+        "car_name": "Toyota RAV4",
+        "year_of_buying": 2021,
+        "num_rented_before": 7,
+        "fuel_type": "Gasoline",
+        "mileage": "13.5km/1-litre",
+        "car_type": "Automatic",
+        "rent": "$360",
+        "image": "https://source.unsplash.com/random/900%C3%97700/?car&54"
+      },
+      {
+        "car_name": "Jeep Wrangler",
+        "year_of_buying": 2020,
+        "num_rented_before": 6,
+        "fuel_type": "Gasoline",
+        "mileage": "10.8km/1-litre",
+        "car_type": "Manual",
+        "rent": "$370",
+        "image": "https://source.unsplash.com/random/900%C3%97700/?car&55"
+      },
+      {
+        "car_name": "Subaru Outback",
+        "year_of_buying": 2021,
+        "num_rented_before": 5,
+        "fuel_type": "Gasoline",
+        "mileage": "12.7km/1-litre",
+        "car_type": "Automatic",
+        "rent": "$355",
+        "image": "https://source.unsplash.com/random/900%C3%97700/?car&56"
+      },
+      {
+        "car_name": "Mazda CX-5",
+        "year_of_buying": 2019,
+        "num_rented_before": 9,
+        "fuel_type": "Gasoline",
+        "mileage": "14.5km/1-litre",
+        "car_type": "Automatic",
+        "rent": "$320",
+        "image": "https://source.unsplash.com/random/900%C3%97700/?car&57"
+      },
+      {
+        "car_name": "Volvo XC90",
+        "year_of_buying": 2020,
+        "num_rented_before": 7,
+        "fuel_type": "Gasoline",
+        "mileage": "11.2km/1-litre",
+        "car_type": "Automatic",
+        "rent": "$375",
+        "image": "https://source.unsplash.com/random/900%C3%97700/?car&58"
+      },
+      {
+        "car_name": "Audi Q5",
+        "year_of_buying": 2022,
+        "num_rented_before": 4,
+        "fuel_type": "Gasoline",
+        "mileage": "13.8km/1-litre",
+        "car_type": "Automatic",
+        "rent": "$390",
+        "image": "https://source.unsplash.com/random/900%C3%97700/?car&59"
+      },
+      {
+        "car_name": "Mercedes-Benz GLE",
+        "year_of_buying": 2020,
+        "num_rented_before": 6,
+        "fuel_type": "Gasoline",
+        "mileage": "12.1km/1-litre",
+        "car_type": "Automatic",
+        "rent": "$400",
+        "image": "https://source.unsplash.com/random/900%C3%97700/?car&60"
+      }
+]
