@@ -1,0 +1,58 @@
+.userset,
+.usernotset {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    display: flex;
+    width: 95%;
+    padding: 1%;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    background-color: rgb(102, 16, 230);
+    color: white;
+}
+
+.userset .appname,
+.usernotset .appname {
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.userset p,
+.usernotset p {
+    font-size: 130%;
+    margin-left: 5%;
+    float: left;
+}
+
+.btn-2 {
+    background: rgb(255, 255, 255);
+    color: rgb(102, 16, 230);
+    font-weight: bold;
+    border: none;
+    white-space: nowrap;
+    padding: 0.8em 1em;
+    border-radius: 20px;
+    margin-left: 0.5em;
+}
+
+.btn-2:hover {
+    background: rgba(255, 255, 255, 0.68);
+}
+
+@media only screen and (max-width:480px) {
+    .userset {
+        min-width: 1250px;
+    }
+}
+
+.image {
+    height: 4.5em;
+}
+
+.navbar-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
