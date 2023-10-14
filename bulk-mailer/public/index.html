@@ -1,0 +1,22 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bulk Email Sender</title>
+</head>
+<body>
+  <h1>Bulk Email Sender</h1>
+  <form action="/sendEmails" method="post" enctype="multipart/form-data">
+    <label for="csvFile">Upload CSV File:</label>
+    <input type="file" id="csvFile" name="csvFile" accept=".csv">
+    <br>
+    <label for="template">Email Template:</label>
+    <textarea id="template" name="template" rows="6" cols="50"></textarea>
+    <br>
+    <label for="attachment">Upload Attachment:</label>
+    <input type="file" id="attachment" name="attachment">
+    <br>
+    <button type="submit">Send Bulk Emails</button>
+  </form>
+</body>
+</html>
