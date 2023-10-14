@@ -1,0 +1,141 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.conversation-messages {
+  overflow-y: auto;
+  height: 67vh;
+  padding: 0vh, 1vh, 0vh, 1vh;
+  padding-bottom: 1vh;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.input-container button {
+  height: 37px;
+  margin-top: 10vh;
+  margin-right: 0.7vw;
+  min-width: 3vw;
+  min-height: 5vh;
+  font-size: 16px;
+  background-color: #7e49f9;
+  padding: 0.8rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.8rem;
+  color: white;
+  border: none;
+}
+.input-container button:hover {
+  background-color: #7e49f982;
+}
+
+.input-message input {
+  margin-top: 8vh;
+  width: 48.2vw;
+  min-width: 300px;
+  height: 30px;
+  font-size: 16px;
+  float: left;
+  margin-left: 1rem;
+  margin-right: 0.85rem;
+}
+
+.receiver {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.message-container {
+  display: flex;
+}
+
+.message-content {
+  font-size: 1.25rem;
+  margin: 0.75rem 1.75rem;
+  background-color: #7e49f9;
+  border: none;
+  outline: none;
+  border-radius: 0.6rem 0.6rem 0 0.6rem;
+  min-width: 7vh;
+  padding: 0.6rem 1rem;
+  color: white;
+}
+
+.chatscreen {
+  width: 100%;
+  background-color: rgb(16, 123, 230);
+  color: white;
+}
+
+.chat {
+  width: 67%;
+  height: 90vh;
+  margin-top: auto;
+  float: left;
+  background-color: #181824;
+  overflow: auto;
+}
+
+.chat p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.encryption-elements {
+  background-color: #1f1e2c;
+  color: white;
+  height: 90vh;
+  font-size: 18px;
+  overflow: auto;
+}
+
+form {
+  margin-left: 2vw;
+}
+
+input {
+  width: 20vw;
+  height: 20px;
+  font-size: 16px;
+  background-color: #353541;
+  border: none;
+  cursor: rgb(240, 237, 237);
+  outline: none;
+  color: rgb(240, 237, 237);
+  background-color: #353541;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+}
+
+.nochat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:90vh; 
+  background-color: #181824;
+}
+
+.nochat p {
+  font-size: 28px;
+}
+
+@media only screen and (max-width: 480px) {
+  .chat {
+    min-width: 365px;
+  }
+  .input-message input {
+    min-width: 610px;
+  }
+  .encryption-elements input {
+    min-width: 300px;
+  }
+}
