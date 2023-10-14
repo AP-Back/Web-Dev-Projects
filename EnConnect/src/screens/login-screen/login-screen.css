@@ -1,0 +1,67 @@
+.container {
+    margin: 5em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.login-screen {
+
+    padding: 2em;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+}
+
+input {
+    width: 15em
+}
+
+.title {
+    padding-top: 3vh;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.758);
+}
+
+.buttongrp {
+    display: flex;
+    flex-direction: column;
+}
+
+.button1 {
+    border-radius: 20px;
+    border: 1px solid rgb(91, 15, 203);
+    background-color: rgb(91, 15, 203);
+    color: #ffffffda;
+    font-weight: bold;
+    padding: 0.6em 0.8em;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.button2 {
+    border-radius: 20px;
+    border: 1px solid rgb(42, 24, 68);
+    background-color: rgb(103, 16, 143);
+    color: #ffffffda;
+    font-weight: bold;
+    padding: 0.6em 0.8em;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.button1:hover {
+    background-color: rgb(16, 123, 230);
+}
+
+.button2:hover {
+    background-color: rgb(16, 123, 230);
+}
